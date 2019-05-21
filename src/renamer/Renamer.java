@@ -2,8 +2,6 @@ package renamer;
 
 import java.io.File;
 import java.nio.file.Path;
-import java.util.Scanner;
-
 
 public class Renamer 
 {
@@ -65,10 +63,6 @@ public class Renamer
         else
             System.err.println("Incorect arguments\nUse --path [directory path]");
         
-        /*Scanner scanner = new Scanner(System.in);
-        
-        System.out.println("Enter directory path");
-        String path = scanner.nextLine();*/
     }
     
 }
